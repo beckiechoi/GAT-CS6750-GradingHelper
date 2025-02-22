@@ -36,7 +36,7 @@
     z-index: 1000;
     padding: 5px 15px;
     box-sizing: border-box;
-    font-size: 70%;
+    font-size: 90%;
     max-height: 200px;
     overflow-y: scroll;
     line-height: 130%;
