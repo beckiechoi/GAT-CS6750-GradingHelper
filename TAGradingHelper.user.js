@@ -159,6 +159,9 @@
             }
 
             points = initialPoint + deductions;
+
+            // round to the nearest third to avoid JS's weird float calculation
+            points = Math.round(points * 1000) / 1000;
         }
 
         console.log(name, points);
