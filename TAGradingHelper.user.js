@@ -182,8 +182,9 @@
             }, {});
 
             [...quizScoreNodeList].filter(el => el.checkVisibility()).forEach((node, i) => {
-                const name = node.textContent;
-                if (!name || !rubricScores[name]) return;
+                const name = node.textContent.replace('Unanswered', ''); // drop "Unanswered" label
+
+                if (!name || !rubricScores.hasOwnProperty(name)) return;
                 const scoreEl = node.nextElementSibling?.querySelector('.question_input');
 
                 // quiz iframe uses change event
