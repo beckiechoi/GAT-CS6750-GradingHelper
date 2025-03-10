@@ -18,6 +18,11 @@
     top: 0;
     display: block;
     z-index: 10;
+    overflow: visible;
+}
+#questions.assessment_results .question_holder .question {
+    width: auto;
+    max-width: 860px;
 }
 .question:not(.text_only_question) .text .question_text {
     margin-top: 0;
