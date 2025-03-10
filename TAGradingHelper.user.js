@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TA Grading Helper
 // @namespace    http://tampermonkey.net/
-// @version      2025-02-21
+// @version      2025-03-10
 // @description  TA grading helper scripts
 // @author       Beckie Choi
 // @match        https://*.instructure.com/courses/*/gradebook/speed_grader?*
